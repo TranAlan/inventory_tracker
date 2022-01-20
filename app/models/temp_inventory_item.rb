@@ -1,2 +1,0 @@
-class TempInventoryItem < ApplicationRecord
-end
