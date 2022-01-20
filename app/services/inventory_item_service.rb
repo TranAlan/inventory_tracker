@@ -18,6 +18,7 @@ class InventoryItemService
       ::InventoryItem.find(id)
     end
 
+    # Due to time constraints. Note this should be done with pagination.
     def fetch_inventory_items
       ::InventoryItem.all
     end
