@@ -17,6 +17,7 @@ test:
 
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: inventory_tracker_production
   username: inventory_tracker
   password: <%= ENV["INVENTORY_TRACKER_DATABASE_PASSWORD"] %>
