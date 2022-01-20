@@ -9,7 +9,6 @@ default: &default
 
 development:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
   database: inventory_tracker_development
 
 test:
